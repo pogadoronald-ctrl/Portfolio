@@ -1,0 +1,95 @@
+/*global*/
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    margin-left: 2rem;
+    font-family: "Dancing Script", cursive;
+    font-size: 3rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+nav{
+    font-size: 1rem;
+    margin-right: 3rem;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li a{
+    padding: .25rem .5rem;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: gray;
+}
+
+.hero{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.hero h1{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    font-family: "Dancing Script", cursive;
+}
+
+.subsections{
+    margin-top: 5rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: blue;
+}
+
+.work-experience a{
+    color: blue;
+}
+
+.work-experience a:hover{
+    text-decoration: underline;
+}
+
+.reviews{
+    display: flex;
+}
+
+blockquote{
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+blockquote footer{
+    color: gray;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+
